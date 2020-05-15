@@ -1,6 +1,8 @@
 # Tic-Tac-Toe
 I created this game in my initial stages of learning AppD.
 
+* Get this app [here](app-release.apk)
+
 ## Screenshots
 |Before Starting Game|Player 1 Won|
 |:---:|:---:|
