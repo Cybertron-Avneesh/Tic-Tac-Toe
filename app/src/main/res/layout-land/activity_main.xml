@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:ignore="LabelFor"
+    tools:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/rectangle_10"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="1"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+
+                <ImageButton
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="2"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+
+                <ImageButton
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="3"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="4"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+
+                <ImageButton
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="5"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+
+                <ImageButton
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="6"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="7"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+
+                <ImageButton
+                    android:id="@+id/btn8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="8"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+
+                <ImageButton
+                    android:id="@+id/btn9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:clickable="true"
+                    android:contentDescription="9"
+                    android:focusable="true"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/blank" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="455dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/Play_but"
+                android:layout_width="108dp"
+                android:layout_height="91dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:visibility="visible"
+                app:srcCompat="@drawable/cross" />
+
+            <TextView
+                android:id="@+id/CurrPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_gravity="center|center_vertical"
+                android:layout_weight="100"
+                android:gravity="center"
+                android:text="@string/player_1"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
